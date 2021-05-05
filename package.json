@@ -1,0 +1,25 @@
+{
+  "name": "exercise-tdd",
+  "version": "1.0.0",
+  "description": "`Exercising TDD and some JS testing frameworks.`",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  },
+  "scripts": {
+    "test": "mocha ./src/**/*.spec.js",
+    "test:watch": "mocha ./src/**/*.spec.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwgoncalves/exercise-tdd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wwgoncalves/exercise-tdd/issues"
+  },
+  "homepage": "https://github.com/wwgoncalves/exercise-tdd#readme"
+}
