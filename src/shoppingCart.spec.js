@@ -8,9 +8,11 @@ describe("Shopping Cart", () => {
     it("should be zero, if no items are passed in", () => {
       // arrange
       const shoppingCart = new ShoppingCart();
+
       // act
       const subtotal = shoppingCart.subtotal;
-      //assert
+
+      // assert
       expect(subtotal).to.equal(0);
     });
 
