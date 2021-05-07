@@ -10,7 +10,8 @@
     "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
     "mocha": "^8.3.2",
-    "nock": "^13.0.11"
+    "nock": "^13.0.11",
+    "sinon": "^10.0.0"
   },
   "scripts": {
     "test": "mocha ./src/**/*.spec.js",

@@ -8,6 +8,10 @@ class ShoppingCart {
     return item;
   }
 
+  forEachItem(callback) {
+    this._items.forEach((item) => callback.call(item, item));
+  }
+
   get items() {
     return this._items;
   }
